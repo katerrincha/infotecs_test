@@ -25,9 +25,7 @@ const App = () => {
     fetchUsers(API);
   }, [])
   return <>
-   
-    <Table users = {users} />
-    
+    <Table users = {users} />    
   </>
 
 }

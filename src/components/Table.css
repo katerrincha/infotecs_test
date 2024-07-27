@@ -10,6 +10,7 @@
     border: 1rem hsl(0, 0%, 47%);
     border-collapse: collapse;
     overflow: hidden;
+    width: 100%;
     max-width: 1200px;
   }
   
@@ -24,8 +25,24 @@
     padding: 12px;
     line-height: 1.7;
   }
+  th {
+    resize:horizontal;
+    overflow: hidden;
+    
+  }
   select {
     margin-top: 7px;
     padding: 5px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    margin: 20px;
+    width: 120px;
+  }
+  .modal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }

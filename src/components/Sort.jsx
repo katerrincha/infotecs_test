@@ -23,12 +23,7 @@ const Sort = (items, config = null) => {
     }, [items, sorted]);
   
     const requestSort = (key, value) => {
-     // let direction = value;
-      /*if (sorted && sorted.key === key && sorted.value === 'ascending') {
-        direction = 'ascending';
-      }*/
-      setSorted({ key, value });
-      
+      setSorted({ key, value });      
     }
   
     return { items: sortedItems, requestSort, sorted };
