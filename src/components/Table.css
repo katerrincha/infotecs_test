@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-size:small;
+  }
+  
+  table {  
+    margin: 10px;
+    border: 1rem hsl(0, 0%, 47%);
+    border-collapse: collapse;
+    overflow: hidden;
+    max-width: 1200px;
+  }
+  
+  thead {
+    background-color: #eceaea;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(220, 220, 220);
+    min-width: 50px;
+    padding: 12px;
+    line-height: 1.7;
+  }
+  select {
+    margin-top: 7px;
+    padding: 5px;
+    border-radius: 10px;
+  }
